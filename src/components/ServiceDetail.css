@@ -1,0 +1,42 @@
+.service-detail {
+    font-size: 2rem;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(110, 175, 70, 0.1);
+    border-radius: 10px;
+}
+
+.service-text, .service-list-item {   
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.service-image {
+    padding: 20px;
+   
+    
+}
+
+.service-image img {
+   
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+.service-list-items {
+    list-style-type: disc;
+    font-size: 2rem;
+    margin-left: 20px;
+
+}
+
+.service-list-items,
+.service-list-item {
+    list-style-type:disc;
+    padding: 0;
+}
+
+

@@ -1,0 +1,45 @@
+footer {
+    background: linear-gradient(0deg, rgba(110, 175, 70, 0.2), #FFFFFF);
+}
+
+a {text-decoration: none; color: inherit;}
+
+a:hover{
+    color:inherit;
+}
+
+.footer-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 0;
+    color: grey;
+}
+
+.footer-text:hover{
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out 0.15s;
+}
+
+li {
+    padding: 0 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+
+    ul {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    li {
+        padding: 1.5rem 0;
+    }
+}
+

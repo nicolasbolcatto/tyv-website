@@ -1,0 +1,80 @@
+.nav {
+    opacity: 90%;
+    margin-top: 0;
+    background: linear-gradient(270deg,rgba(110,175,70,0.2), #f8f9fa);
+}
+
+.logo {
+    opacity: 80%;
+}
+
+.greenText {
+    color: rgb(110, 175, 70);
+    font-size: 3.5rem;
+}
+
+.greenTextSub {
+    color: rgb(110, 175, 70);
+    font-size: 2rem;
+}
+
+.title {
+    font-weight: bold;
+    line-height: 0;
+}
+
+.navButton { 
+    font-weight: bold;
+    padding: 0.75rem 0.75rem;
+    margin: 0.75rem 0.75rem 1rem;
+    border-radius: 0;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.navButton:hover {
+    color:black
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    border-bottom: solid rgba(110, 175, 70,0.5);
+    transition: ease-in-out 0.1s;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:1200px) {
+
+    #logo{
+        display: none;
+    }
+    #title{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #list-buttons {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width:576px) {
+
+    #title {
+        display: none;
+    }
+    #list-buttons {
+        flex-direction: column !important;
+        justify-content: space-around;
+        align-items: center;
+}
+    
+
+}
+
+
