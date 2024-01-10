@@ -4,10 +4,12 @@ import "./Gallery.css"
 const Gallery = () => {
 
     const arrayPictures = [
-        { id: 0, src: "../../assets/services/soil.png", alt: "Equipo de perforacion en tierra"},
-        { id: 1, src: "../../assets/services/water.png", alt: "Equipo de perforacion en agua"},
-        { id: 2, src: "../../assets/services/rock.png", alt: "Caja de roca"},
-        { id: 3, src: "../../assets/services/cpt.png", alt: "Equipo CPT"}
+        { id: 0, src: "/assets/0.png", alt: "0"},
+        { id: 1, src: "/assets/1.png", alt: "1"},
+        { id: 2, src: "/assets/2.png", alt: "2"},
+        { id: 3, src: "/assets/3.png", alt: "3"},
+        { id: 4, src: "/assets/4.png", alt: "4"},
+        { id: 5, src: "/assets/5.png", alt: "5"}
     ]
     return(
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-interval="50">
@@ -16,6 +18,8 @@ const Gallery = () => {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -29,6 +33,12 @@ const Gallery = () => {
                     </div>
                     <div class="carousel-item">
                     <img src={arrayPictures[3].src} class="d-block w-100" alt={arrayPictures[3].alt}/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={arrayPictures[4].src} class="d-block w-100" alt={arrayPictures[4].alt}/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={arrayPictures[5].src} class="d-block w-100" alt={arrayPictures[5].alt}/>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
