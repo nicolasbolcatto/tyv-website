@@ -32,7 +32,7 @@ export const servicesData = [
         title: "Laboratorio de suelos y rocas",
         items: ["Caracterización física (humedad, plasticidad, granulometría)","Ensayos de compresión triaxial con medición de presiones (UU, CU y CD)","Ensayos de consolidación unidimensional","Ensayos de corte directo","Ensayos Proctor y CBR","Ensayos de permeabilidad en cámara triaxial (pared flexible) y de pared rígida","Ensayos de compresión simple y módulo elástico de testigos de roca","Ensayos de agresividad química de suelos y aguas de contacto"],
         description: "Contamos con una extensa experiencia en ejecución de ensayos de laboratorio sobre muestras de suelos y rocas para usos geotécnicos. Entre los más importantes se destacan:",
-        thumbnail: "/assets/services/lab.jpg"
+        thumbnail: "/assets/services/lab.JPG"
     },
     {
         key: "auditoria-movimiento-suelos",
