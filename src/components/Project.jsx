@@ -2,13 +2,13 @@ import "./Project.css"
 
 export const Project = ({project}) => {
   return (
-        <div className="card m-3" key={project.key}>
+        <div className="card m-3 w-100" key={project.key}>
               <div className="card-body row align-items-start">
                 <div className="col-md-4 h-100">
                     <h5 className="card-title fs-1"><span className="badge project-badge">{project.name}</span></h5>
-                    <p className='card-text fs-3 fw-normal'>Comitente: {project.client}</p>
-                    <p className='card-text fs-3 fw-normal'>Ubicación: {project.location}</p>
-                    <p className='card-text fs-3 fw-normal'>Fecha: {project.month} {project.year}</p>
+                    <p className='card-text fs-3 fw-bold'>Comitente: {project.client}</p>
+                    <p className='card-text fs-3 fw-bold'>Ubicación: {project.location}</p>
+                    <p className='card-text fs-3 fw-bold'>Fecha: {project.month} {project.year}</p>
                     <img src={project.url} alt="project-pic" className='w-100 project-pic' />
                     
                 </div>

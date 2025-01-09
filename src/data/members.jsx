@@ -22,7 +22,7 @@ export const membersData = [
     },
     {
         key: "nahuel-ferroni",
-        name: "Tco. Nahuel Ferroni",
+        name: "Ing. Nahuel Ferroni",
         position: "Oficina Técnica",
         avatar: "../../assets/avatar.png",
         email: "tecnica@torresyvercelli.com.ar"

@@ -10,7 +10,7 @@ const Contact = () => {
         <div className='row p-2 container-fluid'>
             <div className="col-12">
                 <h2 className="text-center my-3">Contactanos</h2>
-                <p className='text-center'>Envianos un correo con tu consulta o pedido de presupuesto. También podés comunicarte a nuestro teléfono fijo o enviarnos un Whatsapp.</p>
+                <p className='text-center'>Envianos un correo con tu consulta o pedido de presupuesto. También podés comunicarte a nuestros teléfonos fijos o enviarnos un Whatsapp.</p>
             </div>
             <div className="col p-5">
                 <div className="card p-3">
@@ -32,7 +32,7 @@ const Contact = () => {
                                         <img className="m-auto social-net-logo d-block" src="/assets/phone.png" alt="logo-phone"/>
                                     </div>
                                     <div className="col-md-11 m-auto">
-                                        <p>Teléfono: +54 341 795 9532</p>
+                                        <p>Teléfonos: +54 341 4405979 / 4241988</p>
                                     </div>
                                 </div>
                             </a>

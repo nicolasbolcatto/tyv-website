@@ -8,5 +8,8 @@
 }
 
 .project-pic {
-    border-radius: 5px;
+    border-radius: 15px;
+    max-height: 50vh;
+    width: auto;
+    
 }

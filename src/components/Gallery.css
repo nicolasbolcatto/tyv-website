@@ -8,3 +8,14 @@ p {
     font-size: 1.75rem;
     font-weight: bold;
 }
+
+#carouselExampleCaptions {
+    width: 90vw;
+}
+
+#images div img{
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    background-repeat: no-repeat;
+}

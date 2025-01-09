@@ -24,7 +24,7 @@ export const servicesData = [
         key: "ensayos-in-situ",
         title: "Ensayos in situ",
         description: "Ejecutamos ensayos in situ para obtener parámetros característicos del terreno en profundidad, tanto a partir de correlaciones empíricas como de medición de variables físicas de forma directa. Los principales ensayos que ejecutamos son:",
-        items: ["Ensayo Standard de Penetración (SPT)","Ensayo de Penetración de Piezocono estático (CPTu)","Ensayo Dilatométrico (DMT)","Ensayo Penetrométrico (DPSH, DPH, etc)","Ensayo de Penetración Dinámica de Cono (DCP) para obras viales", "Medición de resistivdad eléctrica (Wenner)"],
+        items: ["Ensayo Standard de Penetración (SPT)","Ensayo de Penetración de Piezocono estático (CPTu)","Ensayo Dilatométrico (DMT)","Ensayo Penetrométrico (DPSH, DPH, etc)","Ensayo de carga con placa in situ (PLT)","Ensayo de Penetración Dinámica de Cono (DCP) para obras viales", "Medición de resistivdad eléctrica (Wenner)"],
         thumbnail: "/assets/services/cpt.png"
     },
     {
